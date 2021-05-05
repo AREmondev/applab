@@ -1,0 +1,274 @@
+/**
+ * /*
+ * Prefixed by https://autoprefixer.github.io
+ * PostCSS: v7.0.29,
+ * Autoprefixer: v9.7.6
+ * Browsers: last 4 version
+ *
+ * @format
+ */
+
+/**
+ * /* Large devices (desktops, less than 1200px)
+ *
+ * @format
+ */
+
+@media (max-width: 1700px) {
+  .feature-build-img {
+    width: 130%;
+  }
+}
+@media (max-width: 1400px) {
+  .feature-build-img {
+    width: 110%;
+  }
+  .app-intro-img {
+    width: 110%;
+  }
+}
+@media (max-width: 1200px) {
+  a.link-btn {
+    pad: 14px 30px;
+    font-size: 15px;
+  }
+  .feature-build-img {
+    width: 100%;
+  }
+  .app-intro-img {
+    width: 100%;
+  }
+  .footer-app-intro h2 {
+    font-size: 37px;
+  }
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991px) {
+  .hero-text {
+    max-width: 600px;
+    width: 100%;
+  }
+  body {
+    font-size: 14px;
+  }
+  .link-btn {
+    font-style: 16px;
+  }
+  h1 {
+    font-size: 45px;
+    line-height: 60px;
+  }
+  h2,
+  .testimonial-title {
+    font-size: 27px;
+  }
+  .testimonial-area {
+    padding: 90px 0 50px 0;
+  }
+  .testimonial-title {
+    margin-bottom: 10px;
+  }
+  .testimonials-title-text p {
+    margin-bottom: 17px;
+  }
+  h3 {
+    font-size: 17px;
+  }
+  p {
+    font-size: 14px;
+  }
+  .footer-app-intro h2 {
+    font-size: 30px;
+    margin-bottom: 0px;
+  }
+  .footer-app-intro p {
+    margin-bottom: 18px;
+  }
+  .link-btn {
+    padding: 14px 32px;
+  }
+  .single-feature.single-card {
+    margin-bottom: 35px;
+  }
+  .menu-btn {
+    display: block;
+  }
+  .menu-area .menu-btn {
+    position: absolute;
+    top: 30px;
+    right: 35px;
+  }
+  .main-menu > * {
+    line-height: 0;
+  }
+  .main-menu {
+    position: fixed;
+    padding: 25px 0;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100%;
+    -webkit-transform: translateX(-100%);
+    -ms-transform: translateX(-100%);
+    transform: translateX(-100%);
+    background-color: #4b30e7;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+  }
+  .show-menu {
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+  .menu {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    height: 100%;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+  .menu-item a {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #a8bbf3;
+  }
+  .menu-item a:hover {
+    color: #fff;
+  }
+  .menu-item:not(:last-child) {
+    margin-bottom: 30px;
+  }
+  .menu-item {
+    margin-right: 0;
+  }
+  .menu-link-btn {
+    display: none;
+  }
+  .client-support-area {
+    padding: 50px 0 0 0;
+  }
+  .single-feature:not(last-child) {
+    margin-bottom: 25px;
+  }
+  h3 {
+    line-height: 32px;
+  }
+  .feature-title {
+    margin-bottom: 30px;
+  }
+  .feature-title .title {
+    margin-bottom: 15px;
+  }
+  .feature-area {
+    padding: 40px 0;
+  }
+  .extra-feature {
+    padding: 40px 0;
+  }
+  .area-title {
+    margin-bottom: 40px;
+  }
+  .area-title h2 {
+    margin-bottom: 12px;
+  }
+  .single-feature-icon {
+    margin-right: 20px;
+  }
+  .clint-title.mb-5 {
+    margin-bottom: 0 !important;
+  }
+  h2.heading-slogan {
+    font-size: 30px;
+  }
+  .border-line-div {
+    display: none !important;
+  }
+  .feature-build-area {
+    padding: 40px 0;
+  }
+  footer {
+    padding: 65px 0;
+  }
+
+  footer .footer-logo {
+    margin-bottom: 30px;
+  }
+  footer .footer-menu {
+    margin-bottom: 30px;
+  }
+  footer .social-chare-icon {
+    margin-bottom: 50px;
+  }
+  .accordion-title {
+    font-size: 17px;
+  }
+}
+
+/*  Small devices (landscape phones, less than 768px) */
+@media (max-width: 767px) {
+  .single-feature-text {
+    max-width: 375px;
+  }
+  .heading-slogan {
+    margin-bottom: 30px;
+  }
+  h1.hero-title {
+    font-size: 45px;
+    line-height: 62px;
+    margin-top: 20px;
+  }
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575px) {
+  .single-feature.single-card {
+    margin-bottom: 18px;
+  }
+  .testimonials-title-text {
+    padding-top: 15px;
+  }
+  .single-price-list {
+    margin-bottom: 17px;
+  }
+  .choose-us-area {
+    padding: 35px 0 20px 0;
+  }
+  .feature-build-title {
+    margin-bottom: 20px;
+  }
+  .feature-design-text {
+    margin-top: 12px;
+  }
+  .single-feature {
+    text-align: center;
+  }
+  .single-feature-icon {
+    margin: 0 auto 10px auto;
+  }
+  .single-feature-text {
+    margin: 0 auto 10px auto;
+  }
+  .feature-build-title {
+    text-align: center;
+    margin: 0 auto 14px auto;
+  }
+  .feature-build-area a.link-btn {
+    margin: 0 auto;
+  }
+  .link-btn-group .mr-2 {
+    margin-bottom: 8px !important;
+  }
+  .feature-area .single-feature-text {
+    text-align: left;
+    margin-left: 10px;
+  }
+  .link-btn-group {
+    flex-direction: column;
+    justify-content: center;
+  }
+}
